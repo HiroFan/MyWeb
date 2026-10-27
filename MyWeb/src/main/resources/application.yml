@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: hirofan-web
+  #mysql连接配置
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/myweb
+    username: root
+    password: hirofanliujun
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

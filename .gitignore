@@ -1,0 +1,79 @@
+# ===================== IDE 编辑器 =====================
+# VS Code
+.vscode/
+.vs/
+*.code-workspace
+# IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+# Eclipse
+.classpath
+.project
+.settings/
+
+# ===================== Maven 构建产物 =====================
+target/
+!pom.xml.tag
+!pom.xml.releaseBackup
+!release.properties
+!pom.xml.next
+!release.properties
+!pom.xml.backup
+!pom.xml.versionsBackup
+!pom.xml.versionsBackup
+!pom.xml.next
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# ===================== SpringBoot 运行日志、临时文件 =====================
+logs/
+*.log
+*.log.*
+spring-boot.log
+app.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# ===================== 编译、class 文件 =====================
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+replay_pid*
+
+# ===================== 本地配置（重点！不要提交数据库密码！） =====================
+# yml / properties 本地配置，线上模板保留
+application-local.yml
+application-local.yaml
+application-local.properties
+application-dev.yml
+application-dev.yaml
+application-dev.properties
+# 如果你想保留模板，可以写成：
+# !application-dev.template.yml
+
+# ===================== 数据库、导出文件 =====================
+*.sql
+*.dump
+*.db
+*.sqlite
+
+# ===================== Lombok / 其他 =====================
+lombok.config
+.apt_generated/
+
+# ===================== 操作系统文件 =====================
+.DS_Store
+Thumbs.db
+
+# ===================== 测试相关（可选，按需打开） =====================
+# test-output/
